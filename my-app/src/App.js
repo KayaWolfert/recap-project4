@@ -1,4 +1,4 @@
-import ThemeCard from "./components/ThemeCard.js";
+import Theme from "./components/Theme.js";
 import { themes } from "./db.js";
 import "./App.css";
 
@@ -12,7 +12,7 @@ function App() {
   
     {themes.map((theme) => {
       return (
-        <ThemeCard key={theme.name} theme={theme}/>
+        <Theme key={theme.name} theme={theme} name={theme.name}/>
 
         
       )

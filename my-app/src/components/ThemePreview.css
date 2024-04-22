@@ -1,0 +1,16 @@
+.color-preview{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    
+}
+
+.article-preview{
+    display:flex;
+}
+
+.section-preview{
+    
+    margin-bottom: 30px;
+   
+}

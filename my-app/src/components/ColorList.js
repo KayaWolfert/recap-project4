@@ -1,4 +1,5 @@
 import ColorCard from "./ColorCard.js";
+import "./ColorList.css"
 
 export default function ColorList({theme}){
     return (
@@ -12,6 +13,6 @@ export default function ColorList({theme}){
       })}
        
         
-       </>
+        </>
     )
 }

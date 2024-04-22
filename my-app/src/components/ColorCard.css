@@ -8,6 +8,9 @@ article {
     
 }
 
+section {
+    margin-bottom: 40px;
+}
 .color-info {
     flex:2;
     background-color:rgb(226, 226, 226);

@@ -6,7 +6,7 @@ export default function ThemePreview({ theme }) {
       <article className="article-preview">
         {theme.colors.map((color) => {
           return (
-            <div key={color.value}
+            <div key={color.role}
               className="color-preview"
               style={{ backgroundColor: color.value }}
             >

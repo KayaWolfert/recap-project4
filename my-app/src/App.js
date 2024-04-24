@@ -21,7 +21,7 @@ function App() {
  <main>
  <ThemeForm onSubmit={handleAddTheme}/>
   
-    {themes.map((theme) => {
+    {themes.map((theme)=> {
       return (
         
         <Theme key={theme.id} theme={theme} name={theme.name}/>

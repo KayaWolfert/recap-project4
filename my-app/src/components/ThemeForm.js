@@ -6,7 +6,6 @@ export default function ThemeForm({onSubmit}) {
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData);
     
-   console.log(data);
 
     const newTheme = {
         name: data.name ,
@@ -29,7 +28,6 @@ export default function ThemeForm({onSubmit}) {
                 value: data.surfaceon,
               },]}
 
-              console.log(newTheme);
               onSubmit(newTheme);
     
   
